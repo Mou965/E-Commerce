@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #F6f3f3;
+    color: #434343;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+    background-color: #274671;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #3166b0;
+}
+
+/* ================= Button ================== */
+.shop {
+    color: #fff;
+    text-decoration: none;
+}
+
+.shop:hover {
+    color: #fff;
+}
+
+/* =================nav================== */
+.nav-logo {
+    width: 60px;
+    height: 60px;
+}
+.nav-logo img {
+    width: 100%;
+}
+.header {
+    background-color: #eb4a5a;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+.form-inline {
+    align-items: center;
+}
+.nav-cart {
+    width: 45px;
+    height: 45px;
+}
+.img-cart img{
+    width: 100%;
+    color: #434343;
+    margin: 0 0 0 12px;
+}
+.fixedCart {
+    width: 300px;
+    height: 100vh;
+    background-color: #f9fafc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    transition: all 0.8s;
+}
+.fixedCart a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    color: #434343;
+}
+.hidden {
+    max-width: 0;
+    max-height: 0;
+    transition: all 1s;
+    overflow: hidden;
+}
+.hidden a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+/* ================card================= */
+.container-p {
+    margin-top: 150px;
+}
+
+.img-container {
+    min-height: 300px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.card img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.card {
+    background-color: #f9fafc;
+    width: 100%;
+    box-shadow: 2px 5px 12px rgba(206, 206, 206, 0.551);
+    margin-bottom: 20px;
+    transition: all 0.9s;
+    padding: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.9s;
+}
+@media(max-width: 552px){
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+}
+.btn-success1 {
+    background-color: #eb4a5a;
+    color: #f9fafc;
+    border: none;
+}
+.btn-success1:hover {
+    background-color: #bd434f;
+    color: #f9fafc;
+}
+
+/* ================ Carrito ================= */
+#cartView {
+    overflow-x: none;
+    overflow-y: scroll;
+}
+.card-body-cart {
+    display: flex;
+}
+
+.img-container-cart {
+    text-align: left;
+}
+
+.img-container-cart img {
+    width: 90%;
+}
+
+.card-cart img {
+    max-width: 100%;
+}
+
+.card-cart {
+   border-radius: 3px;
+    border: 1px solid #939597;
+    width: 90%;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.img-container-cart {
+    width: 50%;
+}
+
+.card-title-cart {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.card-text-cart {
+    margin-bottom: 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.delete-p {
+    position: relative;
+    top: 9%;
+    right: -40%;
+    font-size: 15px;
+    padding: 3px 6px;
+    border: 1px solid #686565;
+    background: #ffffff;
+    color: #635f5f;
+}
+
+.button-amount {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-cart {
+    font-size: 13px;
+    margin: 7px;
+    border: 1px solid #686565;
+    background: #ffffff;
+    color: #635f5f;
+}
+
+.button-cart {
+    display: flex;
+    position: relative;
+    left: 35%;
+}
+
+.amout {
+    margin: 7px;
+    font-size: 23px;
+}
+
+
+
